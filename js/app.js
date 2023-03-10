@@ -13,3 +13,22 @@ function changeColor(color) {
       box.style.backgroundColor = '#556677';
     }
   }
+
+ // Ejercicio 2:
+ // Nota: Este ejercicio solo me funcionaba si tenia el script de js cargado despues del html
+
+ const filterSelect = document.getElementById('filter-select');
+ const cardLanguages = document.querySelectorAll('.card-languages span');
+ 
+ filterSelect.addEventListener('change', (event) => {
+   const selectedValue = event.target.value;
+   cardLanguages.forEach((span) => {
+     if (selectedValue === 'all') {
+       span.style.display = 'inline-block';
+     } else if (span.classList.contains(selectedValue)) {
+       span.style.display = 'inline-block';
+     } else {
+       span.style.display = 'none';
+     }
+   });
+ });
