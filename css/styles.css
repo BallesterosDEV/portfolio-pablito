@@ -8,6 +8,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 h2{
     font-weight: bolder;
     text-align: center;
@@ -191,6 +192,27 @@ button {
   gap: 2vh;
 }
 
+<<<<<<< HEAD
+=======
+.container-color {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  background-color: lightblue;
+  border: solid 2px blue;
+  justify-content: space-around;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+>>>>>>> dbc0b54ec5cf696694c3f12bfbc1628fbd9e839f
 button {
   width: 10vh;
   height: 5vh;
@@ -225,6 +247,12 @@ button {
   border: 3px groove white;
   background: #556677;
 }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> dbc0b54ec5cf696694c3f12bfbc1628fbd9e839f
 
 /*Al usar Bootstrap para prácticamente la totalidad de la página, no he necesitado usar las media queries, pero las dejo comentadas para que veas que sé usarlas*/
 
